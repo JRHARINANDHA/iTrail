@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_weight="100"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="25dp"
+            android:elevation="12dp"
+            android:orientation="vertical"
+            android:background="@drawable/bene_shape"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Route-1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="35dp"
+                android:textColor="#f9fafb"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vadavalli-Singanallur"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:textSize="16dp"
+                android:textColor="#f5f6f7"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="3dp"
+                android:onClick="maps"
+                android:id="@+id/route1"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                android:layout_marginTop="25dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/location_layout"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Track Location"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#f9fafb"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:onClick="call"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="25dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/call_icon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call Transport"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="14dp"
+                    android:textColor="#f9fafb"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="25dp"
+            android:elevation="12dp"
+            android:orientation="vertical"
+            android:background="@drawable/route2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Route-2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="35dp"
+                android:textColor="#f9fafb"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gandhipuram-PSGiTch"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:textSize="16dp"
+                android:textColor="#f5f6f7"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="3dp"
+                android:onClick="maps"
+                android:id="@+id/route2"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="25dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/location_layout"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Track Location"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#f9fafb"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:onClick="call"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="25dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/call_icon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call Transport"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="14dp"
+                    android:textColor="#f9fafb"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="25dp"
+            android:elevation="12dp"
+            android:orientation="vertical"
+            android:background="@drawable/route3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Route-3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="35dp"
+                android:textColor="#f9fafb"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saibaba colony-Gandhipuram"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:textSize="16dp"
+                android:textColor="#f5f6f7"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="3dp"
+                android:layout_height="wrap_content"
+                android:onClick="maps"
+                android:id="@+id/route3"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="25dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/location_layout"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Track Location"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#f9fafb"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:onClick="call"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="25dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/call_icon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call Transport"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="14dp"
+                    android:textColor="#f9fafb"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="25dp"
+            android:elevation="12dp"
+            android:orientation="vertical"
+            android:background="@drawable/route4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Route-4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="35dp"
+                android:textColor="#f9fafb"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ganapathy-Neelambur"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:textSize="16dp"
+                android:textColor="#f5f6f7"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="3dp"
+                android:onClick="maps"
+                android:id="@+id/route4"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="25dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/location_layout"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Track Location"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#f9fafb"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:onClick="call"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="25dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/call_icon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call Transport"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="14dp"
+                    android:textColor="#f9fafb"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="25dp"
+            android:elevation="12dp"
+            android:orientation="vertical"
+            android:background="@drawable/route5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Route-5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="35dp"
+                android:textColor="#f9fafb"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tiruppur-PSGiTech"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:textSize="16dp"
+                android:textColor="#f5f6f7"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="3dp"
+                android:onClick="maps"
+                android:id="@+id/route5"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="25dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/location_layout"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Track Location"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#f9fafb"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:onClick="call"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="25dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/call_icon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call Transport"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="14dp"
+                    android:textColor="#f9fafb"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
